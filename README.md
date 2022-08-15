@@ -12,7 +12,7 @@ dos enteros.
 2. Escribe un programa en C para convertir los días especificados en años, semanas y días.
 Nota: Ignore el año bisiesto.
 > **Datos de prueba:**\
-> Número de días : 1329\
+> Número de días: 1329\
 > **Salida esperada:**\
 > Años: 3 \
 > Semanas 33\
@@ -33,11 +33,11 @@ Salida esperada :
 > 1 2 3 4 5 6 7 8 9 10
 
 5. Escribe un programa en C para mostrar el patrón como triángulo rectángulo usando un
-asterisco. La cantidad de líneas del triangulo es ingresada por consola por el usuario, y el valor
+asterisco. La cantidad de líneas del triángulo es ingresada por consola por el usuario, y el valor
 máximo de líneas es de 14.
 > El patrón como:\
 > **Datos de prueba:**\
-> Introduzca la cantidad de lineas del triangulo: 4\
+> Introduzca la cantidad de líneas del triángulo: 4\
 > **Salida esperada:**\
 > *\
 > **\
@@ -131,13 +131,10 @@ Finalmente, se presenta el producto de las dos matrices.
 > [35][30][7][10]
 
 ## Contenido
-- Todos los ejercicios se encuentran en un solo programa con un menu de opciones 
-- Esta compuesto por los siguientes archvios:
+- Todos los ejercicios se encuentran en un solo programa con un menú de opciones 
+- Este compuesto por los siguientes archivos:
 > - Taller1.c: Se encuentra todo el programa 
-> - taller1_lib.c: Contiene cada una de las funciones y los metodos 
+> - taller1_lib.c: Contiene cada una de las funciones y los métodos 
 > - taller1_lib.h: Es la interfaz del taller1_lib.c, incluye 
 > - taller1_main.c: El programa principal, incluye el encabezado taller1_lib.h y este es el que ejecuta el usuario 
-> - Makefile: Es un archivo que deinfe el conjunto de tareas a ejecutar 
-
-
-
+> - Makefile: Es un archivo que define el conjunto de tareas a ejecutar
