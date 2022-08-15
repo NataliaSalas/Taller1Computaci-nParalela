@@ -92,18 +92,18 @@ Finalmente, se presenta la resta de las dos matrices.
 > **Datos de prueba:**\
 > Ingrese el Tamaño de la Matriz: 4\
 > **Salida esperada:**\
-> Matriz 1 =
+> Matriz 1 = \
 > [1][6][2][0]\
 > [1][8][8][4]\
 > [2][2][3][1]\
 > [9][7][7][2]\
 > Matriz 2 =\
-> [0][5][5][7]\
+> \[0][5][5][7]\
 > [4][6][4][6]\
 > [9][3][3][1]\
 > [4][7][3][8]\
 > Resta de las matrices 1 y 2=\ 
-> [1][1][-3][-7]\
+> \[1][1][-3][-7]\
 > [-3][2][4][-2]\
 > [-7][-1][0][0]\
 > [5][0][4][-6]
@@ -114,18 +114,18 @@ Finalmente, se presenta el producto de las dos matrices.
 > **Datos de prueba:**\
 > Ingrese el Tamaño de la Matriz: 4\
 > **Salida esperada:**\
-> Matriz 1 =
+> Matriz 1 = \
 > [0][0][0][1]\
 > [5][2][8][2]\
 > [6][9][5][8]\
 > [7][5][1][5]\
-> Matriz 2 =\ 
-> [1][4][8][4]\
+> Matriz 2 = \ 
+> \[1][4][8][4]\
 > [4][5][3][1]\
 > [6][6][8][0]\
 > [5][6][7][2]\
-> Producto de las matrices 1 y 2=\ 
-> [0][0][0][4]\
+> Producto de las matrices 1 y 2= \ 
+> \[0][0][0][4]\
 > [20][10][24][2]\
 > [36][54][40][0]\
 > [35][30][7][10]
