@@ -119,12 +119,12 @@ Finalmente, se presenta el producto de las dos matrices.
 > [5][2][8][2]\
 > [6][9][5][8]\
 > [7][5][1][5]\
-> Matriz 2 = \ 
+> Matriz 2 =\ 
 > [1][4][8][4]\
 > [4][5][3][1]\
 > [6][6][8][0]\
 > [5][6][7][2]\
-> Producto de las matrices 1 y 2= \ 
+> Producto de las matrices 1 y 2=\ 
 > [0][0][0][4]\
 > [20][10][24][2]\
 > [36][54][40][0]\
