@@ -9,16 +9,17 @@
 #include <math.h>
 #include <time.h>
 #include <stdlib.h>
+#include "taller1_lib.h"
 
 
-/*Metodo que realiza el producto de dos numero*/
+/*Función que realiza el producto de dos numero*/
 void producto(int a, int b){
   int total;
   total=a*b;
   printf( "\n  El producto es: %d\n", total );
 }
 
-/*Metodo que convierte los días especificados en años, semanas y días*/
+/*Función que convierte los días especificados en años, semanas y días*/
 void dias(int a){
   int años, semanas, dias;
   años = a / 365;
@@ -29,7 +30,7 @@ void dias(int a){
   printf( "\n  Dias: %d\n", dias );
 }
 
-/*Metodo para calcular distancia entre dos puntos*/
+/*Función para calcular distancia entre dos puntos*/
 void distancia(int x1, int x2, int y1, int y2){
   float total;
   total=sqrt(pow(x1 - x2, 2) + pow(y1 - y2, 2));
@@ -47,7 +48,7 @@ void numero(){
     }
 }
 
-/*Metodo para mostrar el patrón como triángulo rectángulo*/
+/*Función para mostrar el patrón como triángulo rectángulo*/
 void triangulo(int lineas){
   if(lineas<=14){
     for (int i = 1; i <= lineas; i++){
@@ -61,7 +62,7 @@ void triangulo(int lineas){
   }     
 }
 
-/*Metodo que imprime una matriz de “1”, de tamaño NxN*/
+/*Función que imprime una matriz de “1”, de tamaño NxN*/
 void matriz(int tam){
   if (tam<=8){
     int matriz[tam][tam],i,j;
@@ -80,7 +81,7 @@ void matriz(int tam){
     
 }
 
-/*Metodo que imprime una matriz de números aleatorios enteros, entre 0 y 9, de tamaño NxN*/
+/*Función que imprime una matriz de números aleatorios enteros, entre 0 y 9, de tamaño NxN*/
 void matrizAleatoria(int tam){
   if(tam<=8){
     srand(time(0));
@@ -100,7 +101,7 @@ void matrizAleatoria(int tam){
     
 }
 
-/*Metodo que suma dos matrices*/
+/*Función que suma dos matrices*/
 void sumaMatrices(int num){
   srand(time(0));
   int matriz[num][num],matriz2[num][num],matriz3[num][num];
@@ -148,7 +149,7 @@ void sumaMatrices(int num){
   }
 }
 
-/*Metodo que resta dos matrices*/
+/*Función que resta dos matrices*/
 void restaMatrices(int num){
   srand(time(0));
   int matriz[num][num],matriz2[num][num],matriz3[num][num];
@@ -197,7 +198,7 @@ void restaMatrices(int num){
 }
 
 
-/*Metodo que hace el producto de las dos matrices*/
+/*Función que hace el producto de las dos matrices*/
 void productoMatrices(int num){
   srand(time(0));
   int matriz[num][num],matriz2[num][num],matriz3[num][num];
@@ -245,7 +246,8 @@ void productoMatrices(int num){
   }
 }
 
-int main(void) {
+/*Metodo que se encarga de iterar por el menú*/
+int menu() {
   int opcion;
   int a,b;
   int x1, x2, y1, y2;
